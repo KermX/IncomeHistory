@@ -2,3 +2,19 @@ name: IncomeHistory
 version: '${project.version}'
 main: me.kermx.incomehistory.IncomeHistory
 api-version: '1.17'
+author: KermX
+description: View previous income from jobs!
+depend:
+  - Jobs
+softdepend:
+  - Vault
+commands:
+  paymentinfo:
+    description: Displays payment over the last hour
+    usage: /paymentinfo
+    permission: incomehistory.user
+    aliases:
+      - paymenthistory
+      - paycheck
+      - paycheque
+      - incomehistory
