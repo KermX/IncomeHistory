@@ -1,0 +1,4 @@
+name: IncomeHistory
+version: '${project.version}'
+main: me.kermx.incomehistory.IncomeHistory
+api-version: '1.17'
