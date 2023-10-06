@@ -11,7 +11,7 @@ softdepend:
 commands:
   paymentinfo:
     description: Displays payment over the last hour
-    usage: /paymentinfo
+    usage: /paymentinfo <username>
     permission: incomehistory.user
     aliases:
       - paymenthistory
